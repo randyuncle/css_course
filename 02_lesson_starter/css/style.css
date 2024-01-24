@@ -1,0 +1,39 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    /*font-size: 22px;*/
+}
+
+main {
+    font-family: monospace;
+}
+
+
+h1, h2 {
+    color: blue;
+}
+
+/*class selector (2)*/
+.gray {
+    color: gray;
+}
+
+/*element selector (3)*/
+p {
+    color: purple;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/*
+* id selector (1)
+* (rarely uses in CSS, try to keep it out)
+*/
+#second {
+    font-size: italic;
+}
